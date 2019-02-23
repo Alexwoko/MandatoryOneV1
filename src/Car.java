@@ -16,6 +16,11 @@ public interface Car {
     boolean stop();
 
 
+    /**
+     * Steering methods
+     * @return amount of steering (double )
+     */
+
     double steerLeft();
     double steerRight();
 

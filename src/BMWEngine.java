@@ -57,7 +57,7 @@ public class BMWEngine implements Engine {
      */
 
     @Override
-    public boolean Forward() {
+    public boolean forward() {
        if(!accelForward){
            accelBack = false;
            accelForward = true;
